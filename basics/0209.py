@@ -160,17 +160,76 @@ w()
 def x(y):
     return y * 2
 result = x(5)
-print(result)"""
+print(result)
 
-#17
-def z(names):
-    names = ["a", "b", "c"]
 
-for zz in names:
-    return zz()
-
+#=================================
+#1
+items = ["pen","note","eraser"]
+for item in items:
+    print(item)
     
-#18
+#1
+numbers = [3, 5, 7]
+for i in numbers:
+    print(i * 3)
+    
+#2
+a = 10
+b = 3
 
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
 
-#19
+#2
+x = 8
+y = 2
+
+print(x * y)
+print(x - y)
+
+#3
+age = 20
+if age >= 18:
+    print("adult")
+  
+#3    
+score = 12
+if score >= 10:
+    print("OK")
+    
+#4
+def greet(name):
+    print("Hello",name)
+greet("Alice")
+
+#4
+def uuu(nnn):
+    print(nnn * 2)
+uuu(5)"""
+
+#5
+def add(a,b):
+    return a + b
+result = add(3,4)
+print(result)
+
+#5
+def nnn(kkk):
+    return kkk - 5
+result = nnn(10)
+print(result)
+
+#6
+numbers = [1,4,7,10]
+for n in numbers:
+    if n >= 5:
+        print(n)
+        
+#6
+values = [3, 6, 8, 11, 14]
+for i in values:
+    if i % 2 == 0:
+        print(i)
