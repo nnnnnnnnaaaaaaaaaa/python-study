@@ -1,37 +1,26 @@
-a = 5
-b = 3
-print(a + b)
+numbers = [10,20,30]
+numbers.append(40)
+for i in numbers:
+    print(i)
+    
+person = {"name": "Taro","age": 34}
 
-age = 34
-print("私は" + str(age) + "です")
 
-score = 75
-if score >= 60:
-    print("合格")
-else:
-    print("不合格")
+print("名前は"+ person["name"] + "です")
+print("年齢は"+ str(person["age"]) + "です")
 
-x = 1
+abc = Python
 
-while x < 6:
-    print(x)
-    x += 1
+print(abc.upper())
+print(abc.replace("py","PY"))
 
-def add(a,b):
-    return a + b
-print(add(3,4))
+import random
+num = random.randint(1,10)
+print(num)
 
-def multiply(a,b):
-    return a * b
-print(multiply(3,5))
 
-def is_even(a):
-    return a % 2 == 0
-print(is_even(4))
-
-def big(a,b):
-    if a > b :
-        return a
-    else:
-        return b
-print(big(3,8))
+try:
+    num = int(input("入力して"))
+    print(10/num)
+except ValueError:
+    print("fff")
